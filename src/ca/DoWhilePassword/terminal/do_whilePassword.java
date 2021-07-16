@@ -15,7 +15,7 @@ class Password
         int attempts = 1;
         do
         {
-            input = JOptionPane.showInputDialog("Enter Password in a password");
+            input = JOptionPane.showInputDialog("Enter Password in a password...");
             correctPassword = input.equals(choice);
             if (!correctPassword)
             {
